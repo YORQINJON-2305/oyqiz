@@ -479,6 +479,10 @@ a {
 		top: 60px;
 	}
 
+	.hero-speach-btn{
+		margin-bottom: 0;
+	}
+
 	.hero-speach-text {
 		font-size: 12px;
 	}
