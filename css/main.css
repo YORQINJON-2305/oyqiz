@@ -355,6 +355,16 @@ a {
 }
 
 @media only screen and (max-width: 920px) {
+
+	.site-wrap{
+		background-position: calc(50% - 250px) calc(50% + 30px), left, center;
+		background-size: 500px, cover, cover;
+	}
+
+	.hero-info-wrap{
+		padding-top: 250px;
+	}
+	
 	.hero-speach-text {
 		font-size: 13px;
 	}
@@ -368,6 +378,10 @@ a {
 	.hero-text {
 		padding: 10px 15px;
 		line-height: 24px;
+	}
+
+	.hero-info-wrap{
+		padding-top: 0;
 	}
 
 	.hero-speach-btn-wrap {
@@ -436,13 +450,25 @@ a {
 
 	.hero-speach-wrap {
 		position: relative;
-		top: 80px;
+		top: 450px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.hero-speach-wrap {
+		top: 390px;
+	}
+}
+
+@media only screen and (max-width: 540px){
+	.hero-speach-wrap{
+		top: 150px;
 	}
 }
 
@@ -495,7 +521,11 @@ a {
 	}
 
 	.hero-text {
-		bottom: 110px;
+		bottom: 50px;
+	}
+
+	.hero-speach-wrap {
+		top: 290px;
 	}
 
 	.hero-speach-btn-wrap {
@@ -507,5 +537,31 @@ a {
 		width: 65px;
 		height: 65px;
 		background-size: 70px;
+	}
+}
+
+@media only screen and (max-width: 391px){
+	.hero-speach-wrap {
+		top: 220px;
+	}
+}
+
+@media only screen and (max-width: 376px){
+	.hero-speach-wrap {
+		top: 110px;
+	}
+
+	.hero-text {
+		bottom: 70px;
+	}
+}
+
+@media only screen and (max-width: 370px){
+	.hero-speach-wrap {
+		top: 150px;
+	}
+
+	.hero-text {
+		bottom: 70px;
 	}
 }
